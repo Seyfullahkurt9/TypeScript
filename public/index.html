@@ -1,0 +1,45 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Finans Kaydedici</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="wrapper">
+    <h1>Finans Kaydedici</h1>
+    <ul class="item-list">
+
+    </ul>
+  </div>
+
+  <footer>
+    <form class="new-item-form">
+      <div class="field">
+        <label>Secenek:</label>
+        <select id="secenek">
+          <option value="aktarma">Aktarma</option>
+          <option value="odeme">Odeme</option>
+        </select>
+      </div>
+      <div class="field">
+        <label>Nereye / Nereden:</label>
+        <input type="text" id="hedef">
+      </div>   
+      <div class="field">
+        <label>Detaylar:</label>
+        <input type="text" id="detaylar">
+      </div>
+      <div class="field">
+        <label>Miktar (₺):</label>
+        <input type="number" id="miktar">
+      </div>
+      <button>Ekle</button>
+    </form>
+
+  </footer>
+
+  <script type="module" src='app.js'></script>
+</body>
+</html>
